@@ -17,7 +17,7 @@ const TodoCard = ({ todo, dispatch }) => {
   return (
     <div className="todo-card">
       <div
-        className={`todo${todo.toggleCompleted ? " completed" : ""}`}
+        className={`todo${todo.completed ? " completed" : ""}`}
         onClick={toggleCompleted}
       >
         <h1>{todo.item}</h1>
