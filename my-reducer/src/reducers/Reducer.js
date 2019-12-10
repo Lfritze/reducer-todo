@@ -6,7 +6,7 @@ export const todo = [
   }
 ];
 
-export const Reducer = (state, action) => {
+export const reducer = (state, action) => {
   switch (action.type) {
     case "ADD_TODO":
       return [
