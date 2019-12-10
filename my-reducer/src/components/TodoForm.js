@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { TodoInput } from "../styling/Styling";
 
 const TodoForm = ({ dispatch }) => {
   const [item, setItem] = useState("");
@@ -19,7 +20,7 @@ const TodoForm = ({ dispatch }) => {
   return (
     <div className="form-todo">
       <form onSubmit={submitTodo}>
-        <input
+        <TodoInput
           className="input"
           type="text"
           value={item}
