@@ -11,7 +11,7 @@ const TodoForm = ({ dispatch }) => {
     event.preventDefault();
     dispatch({
       type: "ADD_TODO", // see Reducer first case
-      payload: item
+      payload: item // see todo in Reducer
     });
     setItem("");
   };
