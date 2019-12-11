@@ -13,5 +13,3 @@ function App() {
 }
 
 export default App;
-
-// /Desktop/Redoing/Reducer-practice/reducer-todo/my-reducer

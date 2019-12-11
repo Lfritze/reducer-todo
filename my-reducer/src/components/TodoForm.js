@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+// import { Input } from "semantic-ui-react";
 import { TodoInput } from "../styling/Styling";
 
 const TodoForm = ({ dispatch }) => {
@@ -23,6 +24,7 @@ const TodoForm = ({ dispatch }) => {
         <TodoInput
           className="input"
           type="text"
+          placeholder="Enter Task"
           value={item}
           onChange={handleChanges}
         />

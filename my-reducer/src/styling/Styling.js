@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 export const AppContainer = styled.div`
   background: #91bfe8;
-  background-size: 100%;
-  margin: 0 auto;
 
-  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 15%;
+  width: 50%;
 `;
 
 export const TodoInput = styled.input`
